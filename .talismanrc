@@ -1,0 +1,10 @@
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: ac80d853a43711ce4b20cce5ba71e9bad58513473f65d24c5f3935c40edfc53e
+- filename: src/Components/AddSongsToPlayListDialog.js
+  checksum: 2e5dafbd892c58c16bc1fc8fa683744f1b4c73cc2ce8525f1e7fdbd8d0ef4b96
+- filename: src/Components/Playlist.jsx
+  checksum: 81a38559ac31577c9ee59b31c2b69f914d57dec778490587b7e9fd63a6d1b2f3
+- filename: src/Components/Songlist.js
+  checksum: 07120ebe3044fec37b791a9bb9e5801f242646c82a6be292b7b6968558b364c4
+version: ""

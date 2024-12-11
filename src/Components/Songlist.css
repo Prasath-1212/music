@@ -1,0 +1,35 @@
+.songListContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of song cards */
+    gap: 15px; /* Space between song cards */
+    margin-bottom: 20px; /* Space below the song list */
+}
+
+.songCard {
+    width: 200px; /* Fixed width for song cards */
+    border: 1px solid #ccc; /* Card border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.songCard:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.dialogContainer {
+    padding: 20px; /* Padding for the dialog */
+    max-width: 400px; /* Max width for the dialog */
+}
+
+.dialogTitle {
+    font-size: 1.5em; /* Title font size */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.playlistOptions {
+    display: flex;
+    flex-direction: column; /* Stack playlist options vertically */
+    gap: 10px; /* Space between options */
+}

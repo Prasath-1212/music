@@ -1,0 +1,22 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Center items vertically */
+    padding: 0 16px; /* Adjust padding if needed */
+}
+
+.title {
+    font-size: 1.5em; /* Font size for the title */
+}
+
+.button {
+    background: none; /* No background for button */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex; /* Flex to center the icon */
+    align-items: center; /* Center icon vertically */
+}
+
+.button:hover {
+    opacity: 0.8; /* Slightly dim on hover */
+}

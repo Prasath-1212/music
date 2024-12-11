@@ -1,0 +1,22 @@
+.card {
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    margin-left: 10px;
+    color: #1976d2;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Center items vertically */
+    padding: 10px 16px; /* Adjust padding if needed */
+}
